@@ -94,6 +94,7 @@ DATABASES = {
 #     'default': dj_database_url.config(
 #         # Replace this value with your local database's connection string.
 #         default='postgresql://postgres:postgres@localhost:5432/mysite',
+        #   default = 'postgresql://mysite:oelqQvpWxzxTkmsKmbYKUSz0CYU92mwd@dpg-cuc9gk3v2p9s73d3ov30-a/mysite_5iqt'
 #         conn_max_age=600
 #     )
 # }
@@ -151,7 +152,7 @@ STATICFILES_DIRS = [
 
 MEDIA_ROOT = BASE_DIR / 'base/static/images'
 
-# STATIC_ROOT = 
+STATIC_ROOT = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
